@@ -21,7 +21,7 @@ html,#landingPage, #pt{
     padding-top:100%;
 }
 #landingMyName{
-    color:#ff00ff !important;
+    color:#e1236e !important;
     font: bold;
 }
 
@@ -51,6 +51,14 @@ html,#landingPage, #pt{
 #homepage_icon_text{
     color: #616161;
     line-height: 75%;
+}
+#homepage_title_text{
+    color: #616161;
+    line-height: 85%;
+}
+#homepage_info_icon{
+    color:#c2c6c6;
+    font-size: 240px;
 }
 
 /*
