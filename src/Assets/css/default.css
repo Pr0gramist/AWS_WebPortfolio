@@ -1,0 +1,39 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+html,#landingPage, #pt{
+    width: 100;
+    height: 100vh;
+}
+
+#pt_canvas{
+    height: 100vh;
+}
+#landingPage{
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+}
+#landingText{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    padding-top:100%;
+}
+#landingMyName{
+    color:#ff00ff !important;
+    font: bold;
+}
+
+.fa{
+    color:#999c9f;
+}
+
+footer{
+    background-color: #343a40;
+}
+
+.footer_name{
+    color:white;
+}
