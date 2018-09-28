@@ -67,12 +67,17 @@ html,#landingPage, #pt{
     height:25px;
 }
 #progress-bar-title{
-    position: absolute;
-    top: 0;
-    z-index: 2;
+    padding-top: 7px;
+    padding-left: 5px;
     text-align: left;
     width: 100%;
     color: white;
+}
+#progress-bar-percent{
+    text-align: right;
+    color: #616161;  
+    position: absolute;
+    right: -20px;
 }
 
 /*

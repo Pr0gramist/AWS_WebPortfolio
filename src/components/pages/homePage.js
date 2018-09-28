@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import myPic from '../images/stivan.jpeg';
 import macbookPic from '../images/macbook.png';
+import codeskillsPic from '../images/codeskills.png';
 class Homepage extends Component {
     render() {
         return (
@@ -55,13 +56,61 @@ class Homepage extends Component {
                 </div>
                 <div id="homepage_skills" class="jumbotron text-center">
                     <div class="row align-items-center">
-                        <div class="col-sm-6"></div>
                         <div class="col-sm-6">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style={{width:"40%"}}></div>
-                                <h4 id="progress-bar-title">CSS</h4>
+                        <img src={codeskillsPic} width="605" height="412"></img>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">CSS</h6></div>
+                                <span id="progress-bar-percent">60%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"90%"}}><h6 id="progress-bar-title">HTML</h6></div>
+                                <span id="progress-bar-percent">90%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">Python</h6></div>
+                                <span id="progress-bar-percent">70%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"80%"}}><h6 id="progress-bar-title">JavaScript</h6></div>
+                                <span id="progress-bar-percent">80%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">React</h6></div>
+                                <span id="progress-bar-percent">70%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"50%"}}><h6 id="progress-bar-title">Node</h6></div>
+                                <span id="progress-bar-percent">50%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"90%"}}><h6 id="progress-bar-title">SQL</h6></div>
+                                <span id="progress-bar-percent">90%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"50%"}}><h6 id="progress-bar-title">C++</h6></div>
+                                <span id="progress-bar-percent">50%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">PHP</h6></div>
+                                <span id="progress-bar-percent">60%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"40%"}}><h6 id="progress-bar-title">Java</h6></div>
+                                <span id="progress-bar-percent">40%</span>
                             </div>
                         </div>
+                        <div class="col-sm-2"></div>
                     </div>
                 </div>
                 
