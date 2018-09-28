@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import myPic from '../images/stivan.jpeg';
 import macbookPic from '../images/macbook.png';
-import codeskillsPic from '../images/codeskills.png';
+import codeskillsPic from '../images/codeface.png';
 class Homepage extends Component {
     render() {
         return (
@@ -56,8 +56,14 @@ class Homepage extends Component {
                 </div>
                 <div id="homepage_skills" class="jumbotron text-center">
                     <div class="row align-items-center">
+                    <div class="col-sm-12">
+                        <h3 id="white_background_text">Technical Skills</h3>
+                        <br></br>
+                    </div>
+                    </div>
+                    <div class="row align-items-center">
                         <div class="col-sm-6">
-                        <img src={codeskillsPic} width="605" height="412"></img>
+                        <img src={codeskillsPic} width="400" height="366"></img>
                         </div>
                         <div class="col-sm-4">
                             <div class="progress border">
