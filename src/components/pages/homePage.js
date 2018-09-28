@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import myPic from '../images/stivan.jpeg';
+import macbookPic from '../images/macbook.png';
 class Homepage extends Component {
     render() {
         return (
@@ -30,11 +31,12 @@ class Homepage extends Component {
                     </div>
                 </div>
                 <div id="hompage_content">
-                <div class="jumbotron text-center">
+                    <div class="jumbotron text-center">
                         <div class="row align-items-center">
                         
                             <div class="col-sm-5">
-                                <i id="homepage_info_icon" class="fa fa-laptop"></i>
+                                {/*<i id="homepage_info_icon" class="fa fa-laptop"></i>*/}
+                                <img src={macbookPic} width="220" height="196"></img>
                             </div>
                             <div class="col-sm-6">
                                 <h3  id="homepage_title_text">
@@ -51,6 +53,9 @@ class Homepage extends Component {
                         
                         </div>
                     </div>
+                </div>
+                <div id="homepage_skills" class="jumbotron text-center">
+                
                 </div>
                 
             </div>
