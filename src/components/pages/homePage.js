@@ -35,7 +35,6 @@ class Homepage extends Component {
                         <div class="row align-items-center">
                         
                             <div class="col-sm-5">
-                                {/*<i id="homepage_info_icon" class="fa fa-laptop"></i>*/}
                                 <img src={macbookPic} width="220" height="196"></img>
                             </div>
                             <div class="col-sm-6">
@@ -55,7 +54,15 @@ class Homepage extends Component {
                     </div>
                 </div>
                 <div id="homepage_skills" class="jumbotron text-center">
-                
+                    <div class="row align-items-center">
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style={{width:"40%"}}></div>
+                                <h4 id="progress-bar-title">CSS</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
             </div>

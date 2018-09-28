@@ -63,6 +63,17 @@ html,#landingPage, #pt{
 #homepage_skills{
     background-color: white;
 }
+.progress{
+    height:25px;
+}
+#progress-bar-title{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    text-align: left;
+    width: 100%;
+    color: white;
+}
 
 /*
     Footer
