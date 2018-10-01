@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myPic from '../images/stivan.jpeg';
+import myPic from '../images/stivan2.jpg';
 import macbookPic from '../images/macbook.png';
 import codeskillsPic from '../images/codeface.png';
 class Homepage extends Component {
@@ -19,7 +19,7 @@ class Homepage extends Component {
                         <div class="col-4">
                             <h1 id="white_background_text">Stivan Kitchoukov</h1>
                             <p id="white_background_text">Software Engineer</p>
-                            <img src={myPic} class="rounded-circle" alt="Stivan Kitchoukov" width="304" height="236"></img>
+                            <img src={myPic} class="rounded-circle" alt="Stivan Kitchoukov" width="304" height="275"></img>
                         </div>
                         <div class="col-4">
                             <i id="homepage_icons" class="material-icons">security</i>
