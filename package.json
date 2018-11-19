@@ -1,7 +1,7 @@
 {
   "name": "kitchoukov",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@types/react-router-dom": "^4.3.1",
     "font-awesome": "^4.7.0",
