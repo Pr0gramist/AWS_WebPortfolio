@@ -59,9 +59,9 @@ class Landing extends Component {
             <div id="landingPage">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"><h3 id="landingText">Hello, I'm <span id="landingMyName">Stivan Kitchoukov</span>.<br></br> I'm a Software Engineer.</h3></div>
-                        <div class="col-md-4"></div>
+                        <div class="col-4"></div>
+                        <div class="col-4"><h3 id="landingText">Hello, I'm <span id="landingMyName">Stivan Kitchoukov</span>.<br></br> I'm a Software Engineer.</h3></div>
+                        <div class="col-4"></div>
                     </div>
                 </div>
 
