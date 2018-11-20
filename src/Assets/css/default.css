@@ -9,7 +9,7 @@ html,#landingPage, #pt{
 #pt_canvas{
     height: 100vh;
     /*pointer-events: none; currently works for mobile but disable all canvas*/
-    touch-action: pan-y;
+    touch-action: pan-up pan-down;
 }
 #landingPage{
     position: relative;
