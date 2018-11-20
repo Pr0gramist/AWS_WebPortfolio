@@ -8,7 +8,7 @@ class Homepage extends Component {
             <div className="wrap">
                 <div id="homepage_banner" class="jumbotron text-center">
                     <div class="row align-items-center">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <i id="homepage_icons" class="fa fa-tachometer"></i>
                             <h3 id="homepage_icon_text">Fast</h3>
                             <p id="homepage_icon_text"><small>Fast load times and lag free<br></br> interaction, my highest priority.</small></p>
@@ -16,12 +16,12 @@ class Homepage extends Component {
                             <h3 id="homepage_icon_text">API</h3>
                             <p id="homepage_icon_text"><small>Strong preference for creating web apps<br></br> that communicate with computers.</small></p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <h1 id="white_background_text">Stivan Kitchoukov</h1>
                             <p id="white_background_text">Software Engineer</p>
                             <img src={myPic} class="rounded-circle" alt="Stivan Kitchoukov" width="304" height="275"></img>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <i id="homepage_icons" class="material-icons">security</i>
                             <h3 id="homepage_icon_text">Secure</h3>
                             <p id="homepage_icon_text"><small>My software is created <br></br>and tested with latest security.</small></p>
