@@ -63,7 +63,7 @@ class Homepage extends Component {
                     </div>
                     <div class="row align-items-center">
                         <div class="col-sm-6">
-                        <img src={codeskillsPic} width="400" height="366"></img>
+                        <img src={codeskillsPic} width="300" height="266"></img>
                         </div>
                         <div class="col-sm-4">
                             <div class="progress border">
