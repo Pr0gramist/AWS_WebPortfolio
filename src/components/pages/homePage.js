@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import myPic from '../images/stivan2.jpg';
 import macbookPic from '../images/macbook.png';
 import codeskillsPic from '../images/codeface.png';
-import noa2 from '../images/NOA2.pdf';
-import heart from '../images/heart.png';
+
 class Homepage extends Component {
     render() {
         return (
@@ -65,7 +64,7 @@ class Homepage extends Component {
                     </div>
                     <div class="row align-items-center">
                         <div class="col-sm-6">
-                        <img src={codeskillsPic} width="300" height="266"></img>
+                        <img src={codeskillsPic} width="400" height="366"></img>
                         </div>
                         <div class="col-sm-4">
                             <div class="progress border">
@@ -121,43 +120,6 @@ class Homepage extends Component {
                         <div class="col-sm-2"></div>
                     </div>
                 </div>
-
-
-                <div id="hompage_content">
-                    <div class="jumbotron text-center">
-                        <div class="row align-items-center">
-                        
-                            <div class="col-sm-5">
-                                <img src={heart} width="220" height="196"></img>
-                            </div>
-                            <div class="col-sm-6">
-                                <h3  id="homepage_title_text">
-                                    Bebe - Today is a wonderful day! I love you so much - there is still hope. 
-                                </h3>
-                                <p id="homepage_icon_text"><small>
-
-                                    Dnes e mnogo specialen den za nas. Tazi novina oznachava che mnogo skoro shte 
-                                    sme edin do druk kato istinsko semeistvo.
-                                    Az naistina ne bqh poluchil email i se sheguvah kogato govorihme po telefona i times
-                                    mi se rasurdi... I na istina nqmah idea za pismoto - tatko mi go pokaza sled kato 
-                                    ti zaspa. Az se sheguvah a to naistina e bilo vqrno bez da znaem! Na 11/15 do sa 
-                                    odobrili bebe! Oshte ima hope da sme zaedno za nova godina!!!!
-                                    <br></br><br></br>OBICHAM TE!!!
-                                </small></p>
-                                <a href={noa2}>Click me BABY!</a>
-                            </div>
-                            <div class="col-sm-1"></div>
-                        
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-                
             </div>
         );
     }
