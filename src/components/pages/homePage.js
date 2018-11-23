@@ -68,8 +68,8 @@ class Homepage extends Component {
                         </div>
                         <div class="col-sm-4">
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">CSS</h6></div>
-                                <span id="progress-bar-percent">60%</span>
+                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">CSS</h6></div>
+                                <span id="progress-bar-percent">70%</span>
                             </div>
                             <br></br>
                             <div class="progress border">
@@ -78,8 +78,8 @@ class Homepage extends Component {
                             </div>
                             <br></br>
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">Python</h6></div>
-                                <span id="progress-bar-percent">70%</span>
+                                <div class="progress-bar bg-info" style={{width:"90%"}}><h6 id="progress-bar-title">Python</h6></div>
+                                <span id="progress-bar-percent">90%</span>
                             </div>
                             <br></br>
                             <div class="progress border">
@@ -88,13 +88,13 @@ class Homepage extends Component {
                             </div>
                             <br></br>
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">React</h6></div>
-                                <span id="progress-bar-percent">70%</span>
+                                <div class="progress-bar bg-info" style={{width:"80%"}}><h6 id="progress-bar-title">React</h6></div>
+                                <span id="progress-bar-percent">80%</span>
                             </div>
                             <br></br>
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"50%"}}><h6 id="progress-bar-title">Node</h6></div>
-                                <span id="progress-bar-percent">50%</span>
+                                <div class="progress-bar bg-info" style={{width:"80%"}}><h6 id="progress-bar-title">Node</h6></div>
+                                <span id="progress-bar-percent">80%</span>
                             </div>
                             <br></br>
                             <div class="progress border">
@@ -103,18 +103,18 @@ class Homepage extends Component {
                             </div>
                             <br></br>
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"50%"}}><h6 id="progress-bar-title">C++</h6></div>
-                                <span id="progress-bar-percent">50%</span>
-                            </div>
-                            <br></br>
-                            <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">PHP</h6></div>
+                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">C++</h6></div>
                                 <span id="progress-bar-percent">60%</span>
                             </div>
                             <br></br>
                             <div class="progress border">
-                                <div class="progress-bar bg-info" style={{width:"40%"}}><h6 id="progress-bar-title">Java</h6></div>
-                                <span id="progress-bar-percent">40%</span>
+                                <div class="progress-bar bg-info" style={{width:"70%"}}><h6 id="progress-bar-title">PHP</h6></div>
+                                <span id="progress-bar-percent">70%</span>
+                            </div>
+                            <br></br>
+                            <div class="progress border">
+                                <div class="progress-bar bg-info" style={{width:"60%"}}><h6 id="progress-bar-title">Java</h6></div>
+                                <span id="progress-bar-percent">60%</span>
                             </div>
                         </div>
                         <div class="col-sm-2"></div>
