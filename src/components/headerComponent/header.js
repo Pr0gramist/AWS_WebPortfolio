@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
         <header>
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a class="navbar-brand" href="#">STIVAN KITCHOUKOV</a>
+                <Link class="navbar-brand" to="/">STIVAN KITCHOUKOV</Link>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link 1</a>
@@ -14,7 +15,7 @@ class Header extends Component {
                         <a class="nav-link" href="#">Link 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link 3</a>
+                        <Link class="nav-link" to="/Contact">Contact</Link>
                     </li>
                 </ul>
             </nav>
