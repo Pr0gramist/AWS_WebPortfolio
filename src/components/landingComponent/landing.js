@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+
 class Landing extends Component {
 
     componentDidMount(){
