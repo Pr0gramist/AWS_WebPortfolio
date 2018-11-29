@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import myPic from '../images/stivan2.jpg';
 import macbookPic from '../images/macbook.png';
 import codeskillsPic from '../images/codeface.png';
@@ -48,7 +49,7 @@ class Homepage extends Component {
                                     I specialize in creating financial software for clients ranging from start-ups to large enterprise corporations.
                                     My work is produced locally from Stroudsburg, Pennsylvania.
                                 </small></p>
-                                <a href="#">Let's Make something together!</a>
+                                <Link to="/Contact">Let's Make something together!</Link>
                             </div>
                             <div class="col-sm-1"></div>
                         
