@@ -64,8 +64,9 @@ class Homepage extends Component {
                     </div>
                     </div>
                     <div class="row align-items-center">
+                        <div class="col-sm-1"></div>
                         <div class="col-sm-6">
-                        <img src={codeskillsPic} width="400" height="366"></img>
+                            <img src={codeskillsPic} width="400" height="366"></img>
                         </div>
                         <div class="col-sm-4">
                             <div class="progress border">
@@ -118,7 +119,7 @@ class Homepage extends Component {
                                 <span id="progress-bar-percent">60%</span>
                             </div>
                         </div>
-                        <div class="col-sm-2"></div>
+                        <div class="col-sm-1"></div>
                     </div>
                 </div>
             </div>
