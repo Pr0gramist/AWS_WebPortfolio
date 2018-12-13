@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Recaptcha from 'react-recaptcha';
 
 class Contact extends Component {
     constructor(props){
@@ -7,11 +8,14 @@ class Contact extends Component {
             contact_name: '',
             contact_email: '',
             contact_phone: '',
-            contact_message: ''
+            contact_message: '',
+            isHuman: false
         };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
+        this.recaptchaVerified = this.recaptchaVerified.bind(this);
     }
 
     handleChange(event){
@@ -25,11 +29,28 @@ class Contact extends Component {
     }
 
     handleSubmit(event){
-        alert("Name submitted: " + this.state.contact_name);
-        alert("Email submitted: " + this.state.contact_email);
-        alert("Phone submitted: " + this.state.contact_phone);
-        alert("Message submitted: " + this.state.contact_message);
-        event.preventDefault();
+        if(this.state.isHuman){
+            alert("Name submitted: " + this.state.contact_name);
+            alert("Email submitted: " + this.state.contact_email);
+            alert("Phone submitted: " + this.state.contact_phone);
+            alert("Message submitted: " + this.state.contact_message);
+            event.preventDefault();
+        }else{
+            alert("Please verify that you are a human!");
+            event.preventDefault();
+        }
+    }
+
+    recaptchaLoaded(){
+        console.log("Capcha successfully laoded");
+    }
+
+    recaptchaVerified(response){
+        if(response){
+            this.setState({
+                isHuman: true
+            })
+        }
     }
 
     render() {
@@ -65,6 +86,14 @@ class Contact extends Component {
                                 <label for="contact_message">Message:</label>
                                 <textarea type="text" value={this.state.contact_message} onChange={this.handleChange} class="form-control" id="contact_message" placeholder="Your Message *" name="contact_message" required/>
                             </div>
+
+                            <Recaptcha
+                                sitekey="6LelI4EUAAAAAOLSM1-3cAODKI_Fx4-r_hbxnH0J"
+                                render="explicit"
+                                onloadCallback={this.recaptchaLoaded}
+                                verifyCallback={this.recaptchaVerified}
+                            />
+
                             <button type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
