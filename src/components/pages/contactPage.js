@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Recaptcha from 'react-recaptcha';
+import * as emailjs from 'emailjs-com';
+import {
+	withRouter
+} from 'react-router-dom';
 
 class Contact extends Component {
     constructor(props){
@@ -30,10 +34,25 @@ class Contact extends Component {
 
     handleSubmit(event){
         if(this.state.isHuman){
-            alert("Name submitted: " + this.state.contact_name);
-            alert("Email submitted: " + this.state.contact_email);
-            alert("Phone submitted: " + this.state.contact_phone);
-            alert("Message submitted: " + this.state.contact_message);
+            //Disable button after first click to prevent multiple messages
+            this.refs.btn.setAttribute("disabled", "disabled");
+
+            var templateParams = {
+                from_name: this.state.contact_name,
+                from_email: this.state.contact_email,
+                from_phone: this.state.contact_phone,
+                from_message: this.state.contact_message
+            };
+       
+            emailjs.send('skitchoukov_gmail_com','template_pX57uEpP', templateParams, 'user_hl29IGKtGP2h5Sjxv6544').then(function(response) {
+                alert("Thank you for your message. I will get in touch with you shortly.");
+                console.log('SUCCESS!', response.status, response.text);
+            }, function(err) {
+                alert("Oops... Something seems to be borken. Please try again later.");
+                console.log('FAILED...', err);
+            });
+
+            this.props.history.push('/');
             event.preventDefault();
         }else{
             alert("Please verify that you are a human!");
@@ -94,7 +113,7 @@ class Contact extends Component {
                                 verifyCallback={this.recaptchaVerified}
                             />
 
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button ref="btn" type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
                     <div class="col-md-4"></div>
@@ -105,4 +124,5 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default withRouter(Contact);
+
