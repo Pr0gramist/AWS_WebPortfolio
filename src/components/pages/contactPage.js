@@ -45,14 +45,14 @@ class Contact extends Component {
             };
        
             emailjs.send('skitchoukov_gmail_com','template_pX57uEpP', templateParams, 'user_hl29IGKtGP2h5Sjxv6544').then(function(response) {
-                alert("Thank you for your message. I will get in touch with you shortly.");
+                //alert("Thank you for your message. I will get in touch with you shortly.");
                 console.log('SUCCESS!', response.status, response.text);
             }, function(err) {
                 alert("Oops... Something seems to be borken. Please try again later.");
                 console.log('FAILED...', err);
             });
 
-            this.props.history.push('/');
+            this.props.history.push('/Thankspage');
             event.preventDefault();
         }else{
             alert("Please verify that you are a human!");

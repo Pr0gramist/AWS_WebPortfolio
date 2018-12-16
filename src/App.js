@@ -11,6 +11,7 @@ import Header from './components/headerComponent/header.js';
 import Footer from './components/footerComponent/footer.js';
 import Homepage from './components/pages/homePage.js';
 import Contact from './components/pages/contactPage.js';
+import Thankspage from './components/pages/thanksPage.js';
 
 //Includes
 import './Assets/css/default.css';
@@ -24,6 +25,7 @@ class App extends Component {
           <Header />
             <Route exact path='/' component={Homepage} />
             <Route exact path='/Contact' component={Contact} />
+            <Route exact path='/Thankspage' component={Thankspage} />
           <Footer />
 
         </div>
