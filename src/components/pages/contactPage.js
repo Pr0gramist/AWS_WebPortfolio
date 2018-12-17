@@ -43,16 +43,17 @@ class Contact extends Component {
                 from_phone: this.state.contact_phone,
                 from_message: this.state.contact_message
             };
-       
+            var self = this;
             emailjs.send('skitchoukov_gmail_com','template_pX57uEpP', templateParams, 'user_hl29IGKtGP2h5Sjxv6544').then(function(response) {
                 //alert("Thank you for your message. I will get in touch with you shortly.");
+                self.props.history.push('/Thanks');
                 console.log('SUCCESS!', response.status, response.text);
             }, function(err) {
                 alert("Oops... Something seems to be borken. Please try again later.");
                 console.log('FAILED...', err);
             });
 
-            this.props.history.push('/Thankspage');
+            this.props.history.push('/loading');
             event.preventDefault();
         }else{
             alert("Please verify that you are a human!");
