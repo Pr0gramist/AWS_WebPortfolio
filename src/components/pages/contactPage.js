@@ -91,19 +91,19 @@ class Contact extends Component {
                         <form onSubmit={this.handleSubmit}>
                             <div class="form-group">
                                 <label for="contact_name">Name:</label>
-                                <input type="text" value={this.state.contact_name} onChange={this.handleChange} class="form-control" id="contact_name" placeholder="Your Name *" name="contact_name" required/>
+                                <input type="text" value={this.state.contact_name} onChange={this.handleChange} class="form-control" id="contact_name" tabindex="1" placeholder="Your Name *" name="contact_name" required/>
                             </div>
                             <div class="form-group">
                                 <label for="contact_email">Email:</label>
-                                <input type="email" value={this.state.contact_email} onChange={this.handleChange} class="form-control" id="contact_email" placeholder="Your Email *" name="contact_email" required/>
+                                <input type="email" value={this.state.contact_email} onChange={this.handleChange} class="form-control" id="contact_email" tabindex="2" placeholder="Your Email *" name="contact_email" required/>
                             </div>
                             <div class="form-group">
                                 <label for="contact_phone">Phone:</label>
-                                <input type="text" value={this.state.contact_phone} onChange={this.handleChange} class="form-control" id="contact_phone" placeholder="Your Phone" name="contact_phone"/>
+                                <input type="text" value={this.state.contact_phone} onChange={this.handleChange} class="form-control" id="contact_phone" tabindex="3" placeholder="Your Phone" name="contact_phone"/>
                             </div>
                             <div class="form-group">
                                 <label for="contact_message">Message:</label>
-                                <textarea type="text" value={this.state.contact_message} onChange={this.handleChange} class="form-control" id="contact_message" placeholder="Your Message *" name="contact_message" required/>
+                                <textarea type="text" value={this.state.contact_message} onChange={this.handleChange} class="form-control" id="contact_message" tabindex="4" placeholder="Your Message *" name="contact_message" required/>
                             </div>
 
                             <Recaptcha

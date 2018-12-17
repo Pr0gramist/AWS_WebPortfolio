@@ -9,7 +9,10 @@ class Thankspage extends Component {
                         <div class="col-md-4">
                         </div>
                         <div class="col-md-4">
-                            <h1 id="white_background_text">Thank You for your message! I will be in touch shortly.</h1>
+                            <i id="thankspage_icons" class="fa fa-check-circle"></i>
+                            <h1 id="white_background_text"><b>THANK <span id="blue_text">YOU!</span></b></h1>
+                            <hr id="thankspage_line"></hr>
+                            <p id="homepage_icon_text"><small>I will get back to you as soon as possible.<br></br> For urgent matters please contact me on LinkedIn found on the bottom of this page.</small></p>
                         </div>
                         <div class="col-md-4">
                         </div>

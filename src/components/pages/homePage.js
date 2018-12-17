@@ -49,7 +49,7 @@ class Homepage extends Component {
                                     I specialize in creating financial software for clients ranging from start-ups to large enterprise corporations.
                                     My work is produced locally from Stroudsburg, Pennsylvania.
                                 </small></p>
-                                <Link to="/Contact">Let's Make something together!</Link>
+                                <Link to="/Contact"><b>Let's Make something together!</b></Link>
                             </div>
                             <div class="col-sm-1"></div>
                         
