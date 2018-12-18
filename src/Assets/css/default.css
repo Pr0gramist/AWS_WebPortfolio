@@ -1,4 +1,19 @@
 /*
+    General
+*/
+#blue_text{
+    color:#21c2c8;
+}
+#full_line{
+    border-top: 2px solid #444649;
+    width: 100%;    
+}
+#half_line{
+    border-top: 2px solid #444649;
+    width: 50%;
+}
+
+/*
     Landing Page
 */
 html,#landingPage, #pt{
@@ -88,12 +103,13 @@ html,#landingPage, #pt{
     color:#21c2c8;
     font-size: 120px;
 }
-#blue_text{
-    color:#21c2c8;
-}
-#thankspage_line{
-    border-top: 2px solid #444649;
-    width: 50%;
+
+/*
+    Error Page
+*/
+#errorpage_icons{
+    color: #ff0000;
+    font-size: 120px;
 }
 
 /*
