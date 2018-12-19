@@ -13,7 +13,7 @@ class Homepage extends Component {
                         <div class="col-md-4">
                             <i id="homepage_icons" class="fa fa-tachometer"></i>
                             <h3 id="homepage_icon_text">Fast</h3>
-                            <p id="homepage_icon_text"><small>Fast load times and lag free<br></br> interaction, my highest priority.</small></p>
+                            <p id="homepage_icon_text"><small>Seamless interaction and fast <br></br>load times, my highest priority.</small></p>
                             <i id="homepage_icons" class="fa fa-lightbulb-o"></i>
                             <h3 id="homepage_icon_text">API</h3>
                             <p id="homepage_icon_text"><small>Strong preference for creating web apps<br></br> that communicate with computers.</small></p>

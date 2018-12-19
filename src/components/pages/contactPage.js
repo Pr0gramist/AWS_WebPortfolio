@@ -114,7 +114,7 @@ class Contact extends Component {
                                 onloadCallback={this.recaptchaLoaded}
                                 verifyCallback={this.recaptchaVerified}
                             />
-
+                            <br></br>
                             <button ref="btn" type="submit" class="btn btn-primary">Send</button>
                         </form>
                     </div>
