@@ -60,6 +60,7 @@ class Homepage extends Component {
                     <div class="row align-items-center">
                     <div class="col-sm-12">
                         <h3 id="white_background_text">Technical Skills</h3>
+                        <hr id="standard_line"></hr>
                         <br></br>
                     </div>
                     </div>

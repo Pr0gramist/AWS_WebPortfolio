@@ -82,6 +82,7 @@ class Contact extends Component {
                         <div class="col-md-4"></div>
                         <div class="col-md-4">
                             <h1 id="white_background_text">Contact</h1>
+                            <hr id="standard_line"></hr>
                         </div>
                         <div class="col-md-4"></div>
                     </div>

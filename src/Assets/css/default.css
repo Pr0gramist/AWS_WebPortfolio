@@ -4,14 +4,22 @@
 #blue_text{
     color:#21c2c8;
 }
+
 #full_line{
     border-top: 2px solid #444649;
     width: 100%;    
 }
+
 #half_line{
     border-top: 2px solid #444649;
     width: 50%;
 }
+
+#standard_line{
+    border-top: 2px solid #444649;
+    width: 50px;
+}
+
 
 /*
     Landing Page
@@ -81,6 +89,7 @@ html,#landingPage, #pt{
 }
 .progress{
     height:25px;
+    width:90%;
 }
 #progress-bar-title{
     padding-top: 7px;
@@ -93,7 +102,7 @@ html,#landingPage, #pt{
     text-align: right;
     color: #616161;  
     position: absolute;
-    right: -20px;
+    right: 20px;
 }
 
 /*
