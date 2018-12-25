@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 var cur_year = new Date().getFullYear();
-var footer_text = "Stivan Kitchoukov \u00A9 " + cur_year;
+var footer_text = "Handcrafted by Stivan Kitchoukov \u00A9 " + cur_year;
 
 class Footer extends Component {
   render() {
