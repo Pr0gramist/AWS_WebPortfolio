@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import myPic from '../images/stivan2.jpg';
 import macbookPic from '../images/macbook.png';
 import codeskillsPic from '../images/codeface.png';
-import sketch from "../images/homescetch2.png";
 
 class Homepage extends Component {
     render() {
@@ -34,11 +33,6 @@ class Homepage extends Component {
                         </div>
                     </div>
                 </div>
-
-                <div class="text-center">
-                    <img src={sketch} class="center"></img>
-                </div>
-
                 <div id="hompage_content">
                     <div class="jumbotron text-center">
                         <div class="row align-items-center">
