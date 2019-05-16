@@ -14,6 +14,7 @@ import Contact from './components/pages/contactPage.js';
 import Thankspage from './components/pages/thanksPage.js';
 import Loadingpage from './components/pages/loadingPage.js';
 import Errorpage from './components/pages/errorPage.js';
+import Certification from './components/pages/certificationPage.js';
 
 
 //Includes
@@ -31,6 +32,7 @@ class App extends Component {
             <Route exact path='/Thanks' component={Thankspage} />
             <Route exact path='/Loading' component={Loadingpage} />
             <Route exact path='/Error' component={Errorpage} />
+            <Route exact path='/Certification' component={Certification} />
           <Footer />
 
         </div>
