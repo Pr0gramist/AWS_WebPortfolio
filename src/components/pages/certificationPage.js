@@ -130,16 +130,16 @@ class Certification extends Component {
                    {/* OWASP TOP 10 */}
                    <div class="row align-items-center">
                         <div class="col-md-1"></div>
-                        <div class="col-md-6 text-left">
+                        <div class="col-md-3 text-left">
                             <h5 id="white_background_text"><b>OWASP</b></h5>
                         </div>
-                        <div class="col-md-5"></div>
+                        {/*<div class="col-md-5"></div>*/}
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-1 text-right">
                             <p><a target="_blank" rel="noopener noreferrer" href={KnowBe10}><i id="thankspage_sm_icons" class="fa fa-file-pdf-o"></i></a></p>
                         </div>
-                        <div class="col-md-4 text-left">
+                        <div class="col-md-3 text-left">
                             <p id="white_background_text">OWASP Top 10</p>
                         </div>
                         {/*<div class="col-md-5"></div>*/}
