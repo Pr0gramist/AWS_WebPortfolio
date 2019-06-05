@@ -15,7 +15,7 @@ import Thankspage from './components/pages/thanksPage.js';
 import Loadingpage from './components/pages/loadingPage.js';
 import Errorpage from './components/pages/errorPage.js';
 import Certification from './components/pages/certificationPage.js';
-
+import Login from './components/memberComponent/loginPage.js';
 
 //Includes
 import './Assets/css/default.css';
@@ -33,6 +33,7 @@ class App extends Component {
             <Route exact path='/Loading' component={Loadingpage} />
             <Route exact path='/Error' component={Errorpage} />
             <Route exact path='/Certification' component={Certification} />
+            <Route exact path='/Login' component={Login} />
           <Footer />
 
         </div>

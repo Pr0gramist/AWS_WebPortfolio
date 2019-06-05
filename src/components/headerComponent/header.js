@@ -24,6 +24,11 @@ class Header extends Component {
                         <Link class="nav-link" to="/Certification">Certifications</Link>
                     </li>
                 </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/Login">Sign in</Link>
+                    </li>
+                </ul>
             </nav>
         </header>
     );
