@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
+import {Auth} from 'aws-amplify';
 
 class Login extends Component {
     constructor(props){
@@ -20,8 +21,14 @@ class Login extends Component {
         });
     }
 
-    handleSubmit = event => {
+    handleSubmit = async event => {
         event.preventDefault();
+        try{
+            await Auth.signIn(this.state.email, this.state.password);
+            alert("Logged in");
+        }catch(e) {
+            alert(e.message);
+        }
     }
 
 
