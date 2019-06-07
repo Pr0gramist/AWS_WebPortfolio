@@ -12,7 +12,7 @@ class Loadingpage extends Component {
                         <div class="col-md-4">
                             <img src={loadingGif}></img>
                             <hr id="half_line"></hr>
-                            <h1 id="white_background_text"><b>Sending Message...</b></h1>
+                            <h1 id="white_background_text"><b>Please Wait...</b></h1>
                         </div>
                         <div class="col-md-4">
                         </div>

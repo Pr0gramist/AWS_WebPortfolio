@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {Auth} from 'aws-amplify';
 
 class Login extends Component {
@@ -31,8 +32,6 @@ class Login extends Component {
         }
     }
 
-
-
     render() {
         return (
             <div className="wrap">
@@ -62,6 +61,10 @@ class Login extends Component {
                
                             <br></br>
                             <button ref="btn" type="submit" class="btn btn-primary">Sign In</button>
+                            <br></br>
+                            <Link to="/Contact">Forgot your password?</Link>
+                            <br></br>
+                            <Link to="/Signup">Don't have an Account? Create one now.</Link>
                         </form>
                     </div>
                     <div class="col-md-4"></div>
@@ -71,6 +74,5 @@ class Login extends Component {
         );
     }
 }
-
 export default withRouter(Login);
 

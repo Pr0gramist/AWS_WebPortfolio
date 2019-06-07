@@ -16,11 +16,24 @@ import Loadingpage from './components/pages/loadingPage.js';
 import Errorpage from './components/pages/errorPage.js';
 import Certification from './components/pages/certificationPage.js';
 import Login from './components/memberComponent/loginPage.js';
+import Signup from './components/memberComponent/signupPage.js';
 
 //Includes
 import './Assets/css/default.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isAuthenticated: false
+    };
+  }
+
+  userHasAuthenticated = authenticated => {
+    this.setState({ isAuthenticated: authenticated });
+  }
+
   render() {
     return (
       <Router>
@@ -34,6 +47,7 @@ class App extends Component {
             <Route exact path='/Error' component={Errorpage} />
             <Route exact path='/Certification' component={Certification} />
             <Route exact path='/Login' component={Login} />
+            <Route exact path='/Signup' component={Signup} />
           <Footer />
 
         </div>
