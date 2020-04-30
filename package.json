@@ -9,7 +9,7 @@
     "awsmobile-cli": "^1.1.7",
     "emailjs-com": "^2.3.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-recaptcha": "^2.3.10",
